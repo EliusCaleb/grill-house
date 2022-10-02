@@ -1,8 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@500;900&display=swap');
+
+/* Global */
 *{
     margin: 0;
     padding: 0;
 }
 
-img {
-    width: 100px;
+body{
+    width: 1320px;
+    font-family: 'Poppins', sans-serif;
 }
+
+/* Home */
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+   
+}
+
+.home-text{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 25px 0;
+    padding: 0 25px;
+
+}
+
+.home h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+
+.home i {
+    text-align: center;
+    font-size: 100px;
+    color: white;    
+}
+.home p{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+/* NavBar */
+
+.navbar nav {
+    background-color: white;
+}
+.navbar nav  ul{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    
+}
+ 
+.navbar nav  ul li {
+    display: inline-block;
+    margin-bottom: 50px;
+    list-style: none;   
+    padding: 10px;   
+}
+.navbar nav  ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+a.active,a:hover{
+    background-color: #000;
+    color:#fff;
+    transition: 3s;
+    
+}
+
+/* About */
+.about{
+    margin: 20px;
+}
+
+.image-left img
+{
+    margin-right: 1em;
+    float: left; /* fallback */
+}
+.image-right img
+	{
+		order: 1;
+		margin-left: 1em;
+		float: right; /* fallback */
+	}
+
+.about p{
+    font-weight: 400px;
+}
+.about h3{
+    margin: 20px 0;
+}
+
+/* Menu List */
+.menulist{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    margin: 25px;
+ 
+}
+.menulist li{
+    list-style: none;
+}
+.menulist a{
+    text-decoration: none;
+    color: black;
+}
+.menulist a:hover{
+    text-decoration: underline;
+    color: #ec4653;
+}
+.menulist img{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 100%;
+    margin-bottom: 5px;
+}
+.menulist h3{
+    text-transform: capitalize;
+}
+.menulist-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.menulist-input input{
+    width: 250px;
+    align-items: center;
+    height: 30px;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    background: none;
+    margin-bottom: 15px;
+}
+
+/* MenuItem */
+
+.menuitem{
+    margin: 25px;
+    
+}
+
+.menuitem img{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 20%;
+    float: left;
+    margin: 30px;
+}
+.menu img::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menuitem h1{
+    text-transform: uppercase;
+    margin: 20px;   
+    padding-top: 150px; 
+}
+
+.menuitem p{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-transform: capitalize;
+   
+}
+
+
+#price{
+    font-weight:700;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    width: 16%;
+    margin-top: 30px;
+    padding: 5px;
+    
+}
+
+/* Reservation Form */
+.reservationform form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    align-items: center;
+    
+}
+.reservationform form input{
+    width: 250px;
+    padding-top: 20px;
+    padding-left: 4px;
+    height: 30px;
+    font-family: var(--Poppins);
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #000;
+    outline: none;
+    background: none;
+    margin-bottom: 15px;
+    
+}
+
+.reservationform button{
+    border: none;
+    background: black;
+    color: #fff;
+    font-family: var(--Poppins);
+    font-size: 17px;
+    padding: 10px;
+}
+
+
+
+
+

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom' // replacement for the useHistory hook
 
-// reservation formdat
+// reservation formdata
 
 const Reservation = () => {
 
@@ -34,19 +34,39 @@ const Reservation = () => {
     function handleClick () {
 
       handleSubmit()
+      
+      alert (`Thank you for your reservation ${firstName} ${secondName}!`)
 
       navigate('/')  
     
     }
 
   return (
-    <div>
+    <div className='reservationform'>
         <form onSubmit={handleSubmit} action="">
-            <input onChange={e => setFirstName(e.target.value)} type="text" value={firstName} placeholder='First Name'/>
-            <input onChange={e => setSecondName(e.target.value)} type="text" value={secondName} placeholder='Second Name'/>
-            <input onChange={e => setEmail(e.target.value)} type="text" value={email} placeholder='Email'/>
-            <input onChange={e => setPhoneNumber(e.target.value)} type="text" value={phoneNumber}placeholder='Phone number'/>
-            <button type='submit' onClick={handleClick}>Book Reservation</button>
+            <input 
+            required
+            onChange={e => setFirstName(e.target.value)} 
+            type="text" value={firstName} 
+            placeholder='First Name'/>
+            <input 
+            required
+            onChange={e => setSecondName(e.target.value)} 
+            type="text" value={secondName} 
+            placeholder='Second Name'/>
+            <input
+            required 
+            onChange={e => setEmail(e.target.value)} 
+            type="text" value={email} 
+            placeholder='Email'/>
+            <input
+            required
+             onChange={e => setPhoneNumber(e.target.value)} 
+             type="text" value={phoneNumber}
+             placeholder='Phone number'/>
+            <button 
+            type='submit' 
+            onClick={handleClick}>Book Reservation</button>
 
             
         </form>

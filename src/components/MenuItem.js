@@ -13,11 +13,11 @@ const MenuItem = ({ menu }) => {
       {menu.map(steak => (
         steak.id === parseInt(params.steakId) &&
 
-        <div>
+        <div className='menuitem'>
           <img alt={steak.title} src={steak.image}></img>
           <h1>{steak.title}</h1>
           <p>{steak.description}</p>
-          <p>{steak.price}</p>
+          <p id='price'>Ksh {steak.price}</p>
         </div>
 
         

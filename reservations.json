@@ -24,6 +24,24 @@
         "phoneNumber": "0723546677"
       },
       "id": 3
+    },
+    {
+      "newReservation": {
+        "firstName": "Evelyne ",
+        "secondName": "Hugo",
+        "email": "evelynehugo@gmail.com",
+        "phoneNumber": "011222333"
+      },
+      "id": 4
+    },
+    {
+      "newReservation": {
+        "firstName": "James",
+        "secondName": "Mwangi",
+        "email": "jamesmwangi@gmail.com",
+        "phoneNumber": "0223334445"
+      },
+      "id": 5
     }
   ]
 }

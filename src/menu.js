@@ -51,7 +51,64 @@ export const menu = {
             "title": "fillet mignon",
             "description": "Fillet Mignon steak Oscar topped with shrimp, Alaskan King crab and béarnaise sauce make for an elegant dinner for two.",
             "price": 5000
-        } 
+        },
+        {
+            "id": 8,
+            "image": "https://i.pinimg.com/564x/74/30/ff/7430ff4274e4d3430eba6d4eb1663385.jpg",
+            "title": "garlicky steak",
+            "description": "Dinner Is Never Boring with Garlicky Steak and Potatoes",
+            "price": 6000
+        },
+        {
+            "id": 9,
+            "image": "https://i.pinimg.com/564x/28/2e/22/282e222464666a3b7cb47b1ae41b44ad.jpg",
+            "title": "Garlic Butter Grilled Steak & Shrimp",
+            "description": "grilled steak & shrimp slathered in garlic butter makes for the best steak recipe!",
+            "price": 7000
+        },
+        {
+            "id": 10,
+            "image": "https://i.pinimg.com/564x/bc/db/74/bcdb743fc212204ea08b4cd8d9d831a3.jpg",
+            "title": "Cajun Butter Steak Bites",
+            "description": "Tender pan seared Cajun Butter Steak Bites are full flavoured with crispy edges. Ready in under 10 minutes without any marinating needed!",
+            "price": 6500
+        },
+        {
+            "id": 11,
+            "image": "https://i.pinimg.com/564x/49/23/0f/49230ff4013e4a372656c4b2a7a50107.jpg",
+            "title": "Tequila Lime Flank Steak",
+            "description": "Tequila Lime Flank Steak - Beautiful flank steak marinated in a tequila lime mixture then grilled to perfections that is sure to be a hit with the family!",
+            "price": 5800
+        },
+        {
+            "id": 12,
+            "image": "https://i.pinimg.com/564x/ed/f2/68/edf268c3def5348d3a7be003dad08d4e.jpg",
+            "title": "Lemon Garlic Butter Steak and Broccoli Skillet",
+            "description": "ender and juicy pan-seared garlic butter steak strips make a quick and delicious meal for any day of the week! -",
+            "price": 6700
+        },
+        {
+            "id": 13,
+            "image": "https://i.pinimg.com/564x/ae/d1/35/aed1350baaa90c996cabed20a6bd01a7.jpg",
+            "title": " Vegan Steak With Tapenade",
+            "description": "Eggplants & Gluten free",
+            "price": 3000
+        },
+        {
+            "id": 14,
+            "image": "https://i.pinimg.com/564x/e6/c5/b9/e6c5b92f4b3e73741cace20641be0edd.jpg",
+            "title": "Peppered Tofu Steaks | Vegan",
+            "description": "Nobody can resist our delicious, peppery marinated tofu steaks—that’s a promise.",
+            "price": 4000
+        },
+        {
+            "id": 15,
+            "image": "https://i.pinimg.com/736x/99/96/c0/9996c0f3ad24d9cb839aab86fde3e5b0.jpg",
+            "title": "Garlic Black Pepper Chicken",
+            "description": "ender, juicy, and buttery Black Pepper Chicken",
+            "price": 3000
+        },
+
     ]
   }
 
