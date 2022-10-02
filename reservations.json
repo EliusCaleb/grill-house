@@ -42,6 +42,24 @@
         "phoneNumber": "0223334445"
       },
       "id": 5
+    },
+    {
+      "newReservation": {
+        "firstName": "Leo",
+        "secondName": "Mwanzia",
+        "email": "leomwanzia@yahoo.com",
+        "phoneNumber": "0887734567"
+      },
+      "id": 6
+    },
+    {
+      "newReservation": {
+        "firstName": "Ashley",
+        "secondName": "Njeri",
+        "email": "njeriash@gmail.com",
+        "phoneNumber": "123456789"
+      },
+      "id": 7
     }
   ]
 }
