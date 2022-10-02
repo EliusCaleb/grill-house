@@ -1,6 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom' // replacement for the useHistory hook
+
+// reservation formdat
 
 const Reservation = () => {
+
+  const navigate = useNavigate()
 
     const [firstName, setFirstName] = useState('')
     const [secondName, setSecondName] = useState('')
@@ -15,7 +20,7 @@ const Reservation = () => {
         phoneNumber: phoneNumber
        } 
        
-       fetch('http://localhost:3000/clients',{
+       fetch('http://localhost:8001/clients',{
         method:"POST",
         headers:{
             "Content-Type":"application/json"
