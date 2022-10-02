@@ -13,7 +13,7 @@ const MenuList = () => {
             <Link to={`/menuitem/${steak.id}`}>
           <li >
             <img alt={steak.title} src={steak.image}></img>
-            <h1>{steak.title}</h1>
+            <h1>{steak.title}</h1>  
           </li>
           </Link>
         

@@ -31,6 +31,14 @@ const Reservation = () => {
        .then(data => console.log(data) )
     }
 
+    function handleClick () {
+
+      handleSubmit()
+
+      navigate('/')  
+    
+    }
+
   return (
     <div>
         <form onSubmit={handleSubmit} action="">
@@ -38,7 +46,7 @@ const Reservation = () => {
             <input onChange={e => setSecondName(e.target.value)} type="text" value={secondName} placeholder='Second Name'/>
             <input onChange={e => setEmail(e.target.value)} type="text" value={email} placeholder='Email'/>
             <input onChange={e => setPhoneNumber(e.target.value)} type="text" value={phoneNumber}placeholder='Phone number'/>
-            <button type='submit'>Book Reservation</button>
+            <button type='submit' onClick={handleClick}>Book Reservation</button>
 
             
         </form>

@@ -15,7 +15,15 @@
         "phoneNumber": "0768372439"
       },
       "id": 2
+    },
+    {
+      "newReservation": {
+        "firstName": "John",
+        "secondName": "Doe",
+        "email": "johndoe@gmail.com",
+        "phoneNumber": "0723546677"
+      },
+      "id": 3
     }
-  
   ]
 }
