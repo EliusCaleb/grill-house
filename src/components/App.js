@@ -20,6 +20,7 @@ function App() {
 
       <Routes>
           <Route exact='true' path='/' element={<Home />} ></Route>
+          <Route exact='true' path='/grill-house' element={<Home />} ></Route>
           <Route exact='true' path='/about' element={ <About />} ></Route>
           <Route exact='true' path='/menulist' element={<MenuList />} ></Route>
           <Route path="/menuitem/:steakId" element={<MenuItem menu={menu.steaks} />}></Route>
