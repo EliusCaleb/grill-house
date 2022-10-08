@@ -60,6 +60,15 @@
         "phoneNumber": "123456789"
       },
       "id": 7
+    },
+    {
+      "newReservation": {
+        "firstName": "elius",
+        "secondName": "caleb",
+        "email": "caleb@gmail.com",
+        "phoneNumber": "123456789"
+      },
+      "id": 8
     }
   ]
 }
